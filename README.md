@@ -6,6 +6,7 @@ to run this code you must have Pillow and beautiful soup 4 apis installed for py
 
 run with:
 python3 xml.py <path to file with xml and pngs>
+
 example:
 python3 xml.py /Users/exampleuser/Desktop/Programming-Assignment-Data
   
