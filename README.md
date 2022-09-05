@@ -7,11 +7,14 @@ to run this code you must have Pillow and beautiful soup 4 libraries installed f
 You can instal both libraries with the following commands:
 
 pip install beautifulsoup4
+
 pip install Pillow==5.3.0
 
 after downloading the script and libraries, run the code with:
+
 python3 xml.py <path to file with xml and pngs>
 
 example:
+
 python3 xml.py /Users/exampleuser/Desktop/Programming-Assignment-Data
   
