@@ -18,3 +18,9 @@ example:
 
 python3 xml.py /Users/exampleuser/Desktop/Programming-Assignment-Data
   
+  
+  
+DESCRIPTION:
+
+This code works by using bs4's findall command for 'node', which returns a list of tags which are each node in the xml hierarchy. The nodes tag includes all child nodes, so nodes with no children are leafs. the leafs are located by searching through the list of tags of entries with one occurance of 'node' and 'bounds.'the bounds of these leaf nodes are handed to Pillows Image and ImageDraw objects as bounds for yellow rectangles over the png. the annotated images are then saved using the convention <xml-file-name>.highlighted.png.
+  
